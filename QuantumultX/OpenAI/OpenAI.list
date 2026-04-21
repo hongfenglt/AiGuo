@@ -1,5 +1,5 @@
 # NAME: Ai Rules
-# UPDATED: 2025-04-17
+# UPDATED: 2026-1-28
 
 payload:
 # > Ai general rules
@@ -21,7 +21,7 @@ payload:
   - DOMAIN-SUFFIX,wp.com
   - DOMAIN-SUFFIX,sentry.io
   - DOMAIN-SUFFIX,stripe.com
-
+  
 # > Anthropic/Claude
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-SUFFIX,anthropic.com
@@ -48,6 +48,8 @@ payload:
   - DOMAIN-SUFFIX,colab.research.google.com
   - DOMAIN-SUFFIX,developerprofiles.google.com
   - DOMAIN-SUFFIX,googleusercontent.com
+  - DOMAIN-SUFFIX,googleapis.com
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 
 # > JetBrains AI
   - DOMAIN-SUFFIX,grazie.ai
@@ -55,6 +57,12 @@ payload:
 # > Meta
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.com
+
+
+# > Notebooklm
+  - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,notebooklm.google
+
 
 # > Microsoft Copilot
   - DOMAIN,api.msn.com
